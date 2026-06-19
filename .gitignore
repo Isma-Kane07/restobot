@@ -1,0 +1,40 @@
+# Dépendances
+node_modules/
+.pnp
+.pnp.js
+
+# Environnement
+.env
+.env.local
+.env.production
+
+# Base de données
+*.db
+*.sqlite
+
+# Sessions WhatsApp
+whatsapp-sessions/
+data/sessions/
+
+# Fichiers uploadés
+public/menus/*.jpg
+public/menus/*.png
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+
+# Cache
+.cache/
